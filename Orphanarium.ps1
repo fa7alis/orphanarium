@@ -36,19 +36,21 @@ $Choices  = '&Yes', '&No'
 $decision = $Host.UI.PromptForChoice($Title, $Question, $Choices, 1)
 if ($decision -eq 0) {
     Write-Host "Let's get those Orphans cleaned up..."
+    #HERE IS WHERE WE REMOVE THE ORPHANS FOUND ONCE WE FIGURE THAT PART OUT
 } else {
     Write-Host "Leaving those Orphans alone..."
     Exit 0
 }
+#Prompt user if they want to remove the found Orphans or not. If Y then remove Orphans, if N then exit the script
 
 <#
 NEED TO BE DONE
 Matches dumped to file, or temporary storage for remove action
-Directory path for orphaned files needs to be determined (user input)
+Directory path for orphaned files needs to be determined (user input) - X:\ProgramData\Symantec\DataLossPrevention\ServerPlatformCommon\15.5\index
 Actions to delete orphaned files listed in logs
 
 NOTES
-After matches, print "Found (x) orphans, delete? Y/N"
+After matches, print "Found (x) orphans, delete? Y/N" - DONE
 Error handling?
 
 FUTURE
