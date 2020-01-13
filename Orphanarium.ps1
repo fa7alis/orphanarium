@@ -66,15 +66,4 @@ if ($decision -eq 0) {
     Write-Host -ForegroundColor Blue "Leaving those Orphans alone..."
     Exit 0
 }
-#Prompt user if they want to remove the found Orphans or not. If Y then remove Orphans, if N then exit the script
-
-<#
-NEED TO BE DONE
-Actions to delete orphaned files listed in logs
-Error Handling
-
-FUTURE
-Automatically find debug log path?
-Automatically find orphaned files path?
-Check that we are running as Administrator?
-#>
+#Prompt user if they want to remove the found Orphans or not. If Y then remove Orphans, if N then exit the script.
