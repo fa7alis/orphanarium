@@ -70,13 +70,8 @@ if ($decision -eq 0) {
 
 <#
 NEED TO BE DONE
-Matches dumped to file, or temporary storage for remove action
-Directory path for orphaned files needs to be determined (user input) - X:\ProgramData\Symantec\DataLossPrevention\ServerPlatformCommon\15.5\index
 Actions to delete orphaned files listed in logs
-
-NOTES
-After matches, print "Found (x) orphans, delete? Y/N" - DONE
-Error handling?
+Error Handling
 
 FUTURE
 Automatically find debug log path?
