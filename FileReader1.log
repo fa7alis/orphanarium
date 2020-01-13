@@ -1,0 +1,188 @@
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. DocSource.161.48.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. LegacyEndpointDocSource.201.4.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. LegacyEndpointDocSource.141.43.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. EndpointDocSource.141.43.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. EndpointDocSource.161.48.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. LegacyEndpointDocSource.81.10.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. DocSource.141.43.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. EndpointDocSource.201.4.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. DocSource.201.4.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. EndpointDocSource.81.10.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. DocSource.81.10.rdx
+Aug 9, 2019 5:02:32 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. LegacyEndpointDocSource.161.48.rdx
+Aug 9, 2019 5:02:36 PM com.vontu.detection.PolicyIncidentLimiterImpl$ResetLimiter run
+INFO: (DETECTION.401) The Policy Incident limiter has been reset and all previously disabled Policies have been enabled. The limits will reset again in 24 hour(s) 0 ms
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.10.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.11.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.10.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.11.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.10.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.11.
+Aug 9, 2019 5:03:42 PM com.vontu.profiles.monitor.indexer.DeleteOrphanedFilesRequest run
+INFO: Deleted orphaned index file C:\ProgramData\Symantec\Data Loss Prevention\Detection Server\15.1\..\..\Server Platform Common\15.1\index\DataSource.1.0.0.rdx.1
+Aug 9, 2019 5:03:42 PM com.vontu.profiles.monitor.indexer.DeleteOrphanedFilesRequest run
+INFO: Deleted orphaned index file C:\ProgramData\Symantec\Data Loss Prevention\Detection Server\15.1\..\..\Server Platform Common\15.1\index\DataSource.1.0.0.rdx.0
+Aug 9, 2019 5:03:42 PM com.vontu.profiles.monitor.indexer.DeleteOrphanedFilesRequest run
+INFO: Deleted orphaned index file C:\ProgramData\Symantec\Data Loss Prevention\Detection Server\15.1\..\..\Server Platform Common\15.1\index\DataSource.1.0.0.rdx.4
+Aug 9, 2019 5:03:42 PM com.vontu.profiles.monitor.indexer.DeleteOrphanedFilesRequest run
+INFO: Deleted orphaned index file C:\ProgramData\Symantec\Data Loss Prevention\Detection Server\15.1\..\..\Server Platform Common\15.1\index\DataSource.1.0.0.rdx.3
+Aug 9, 2019 5:03:42 PM com.vontu.profiles.monitor.indexer.DeleteOrphanedFilesRequest run
+INFO: Deleted orphaned index file C:\ProgramData\Symantec\Data Loss Prevention\Detection Server\15.1\..\..\Server Platform Common\15.1\index\DataSource.1.0.0.rdx.2
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.9.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.8.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.5.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.4.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.7.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.6.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.1.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.0.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.3.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.2.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.1.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.0.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.9.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.8.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.7.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.6.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.11.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.5.
+Aug 9, 2019 5:03:42 PM com.vontu.detection.policy.engines.dataidentifier.DataIdentifierEngine matcherUpdated
+INFO: Data Identifier updated, received matcher update for type : DATAIDENTIFIER
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.4.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.3.
+Aug 9, 2019 5:03:42 PM com.vontu.detection.dataidentifier.DataIdentifierStore resetAndLoadDataIdentifiers
+INFO: (DATA_IDENTIFIER.103) [485] Data Identifiers have been deployed
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.10.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.221.31.rdx.2.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.11.
+Aug 9, 2019 5:03:42 PM com.vontu.detection.policy.engines.dataidentifier.DataIdentifierEngine matcherUpdated
+INFO: Data Identifier updated, received matcher update for type : DATAIDENTIFIER
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.1.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.0.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.3.
+Aug 9, 2019 5:03:42 PM com.vontu.cracker.jni.JniLoader loadLibrary
+INFO: Loading D:\SymantecDLP\Detection Server\15.1\Protect\lib\native\JniMatcher.dll
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.2.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.5.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.4.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.7.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.6.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.9.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.182.11.rdx.8.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.181.3.rdx.10.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.10.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.11.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.9.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.1.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.2.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.0.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.1.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.0.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.9.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.3.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.2.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.7.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.5.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.0.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.8.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.4.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.5.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.7.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.6.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.6.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.3.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.9.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.1.548.rdx.4.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.21.604.rdx.8.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.6.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.5.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.8.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.7.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.2.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.1.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.4.
+Aug 9, 2019 5:03:42 PM com.vontu.logging.LocalLogWriter write
+WARNING: Failed to remove orphaned file. Failed to remove orphaned database profile index file DataSource.241.16.rdx.3.
