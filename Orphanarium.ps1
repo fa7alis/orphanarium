@@ -29,13 +29,13 @@ while ($null -eq $indexdir){
     $indexdir = read-host "Please enter the Symantec DLP ServerPlatformCommon index folder path"
     if (-not(test-path $indexdir)){
         Write-host ""
-        Write-host -ForegroundColor red "*** Invalid directory path, please try again. ***"
+        Write-host -ForegroundColor Red "*** Invalid directory path, please try again. ***"
         Write-host ""
         $indexdir = $null
         }
     elseif (-not (get-item $logdir).psiscontainer){
         Write-host ""
-        Write-host -ForegroundColor red "*** Path must be a directory, please try again. ***"
+        Write-host -ForegroundColor Red "*** Path must be a directory, please try again. ***"
         Write-host ""
         $indexdir = $null
         }
@@ -43,26 +43,27 @@ while ($null -eq $indexdir){
 #Query user on index directory and set it as $indexdir variable
 #Error if path is not valid or is not a folder
 
-$Orphan = (Select-String -Path $logdir\FileReader*.log -Pattern '\b(\w*\w*)\b\.([1-9][0-9]{0,2})\.([1-9][0-9]{0,2})\.rdx$|\b(\w*\w*)\b\.([1-9][0-9]{0,2})\.([1-9][0-9]{0,2})\.rdx\.([1-9][0-9]{0,2})').Matches.Value
-$Orphans = $Orphan.Count
+$orphan = (Select-String -Path $logdir\FileReader*.log -Pattern '\b(\w*\w*)\b\.([1-9][0-9]{0,2})\.([1-9][0-9]{0,2})\.rdx$|\b(\w*\w*)\b\.([1-9][0-9]{0,2})\.([1-9][0-9]{0,2})\.rdx\.([1-9][0-9]{0,2})').Matches.Value
+$orphans = $orphan.Count
 #Run regex against FileReader*.log in $logdir and print matches to screen
 Write-host "------------------------------------------------------------"
 Write-Host "Our workers have identified ${Orphans} Orphans on the loose."
 Write-host "------------------------------------------------------------"
 
-$Title    = ""
-$Question = "Would you like to remove these Orphans?"
-$Choices  = '&Yes', '&No'
+$title    = ""
+$question = "Would you like to remove these Orphans?"
+$choices  = '&Yes', '&No'
 
-$decision = $Host.UI.PromptForChoice($Title, $Question, $Choices, 1)
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
 if ($decision -eq 0) {
-    Write-Host "Let's get those Orphans cleaned up..."
+    Write-Host -ForegroundColor Green ">Let's get those Orphans cleaned up..."
     Set-Location -Path $indexdir
     #Set our location to the index directory
-    $Orphan | ForEach-Object {Remove-Item $_ -WhatIf}
+    $orphan | ForEach-Object {Remove-Item $_ -WhatIf}
     #For each match found, remove the object from our current location
+    #Remove -WhatIf for Production
 } else {
-    Write-Host "Leaving those Orphans alone..."
+    Write-Host -ForegroundColor Blue "Leaving those Orphans alone..."
     Exit 0
 }
 #Prompt user if they want to remove the found Orphans or not. If Y then remove Orphans, if N then exit the script
