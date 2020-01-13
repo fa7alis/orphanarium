@@ -1,8 +1,11 @@
-#Orphanarium v0.0.1 by Shawn Cook (8/9/2019)
+#Orphanarium v0.0.2 by Shawn Cook (1/13/2020)
 #Read Symantec DLP Filereader logs to locate Orphaned Files and remove them from the system.
 
 $logdir = $null
-#set $logdir variable to null as we ask the user for this information
+$indexdir = $null
+$orphan = $null
+$orphans = $null
+#set variables to null as we ask the user for this information/populate ourselves
 
 while ($null -eq $logdir){
 $logdir = read-host "Please enter the Symantec DLP DEBUG log folder path"
@@ -22,6 +25,24 @@ elseif (-not (get-item $logdir).psiscontainer){
 #Query user on log directory and set it as $logdir variable
 #Error if path is not valid or is not a folder
 
+while ($null -eq $indexdir){
+    $indexdir = read-host "Please enter the Symantec DLP ServerPlatformCommon index folder path"
+    if (-not(test-path $indexdir)){
+        Write-host ""
+        Write-host -ForegroundColor red "*** Invalid directory path, please try again. ***"
+        Write-host ""
+        $indexdir = $null
+        }
+    elseif (-not (get-item $logdir).psiscontainer){
+        Write-host ""
+        Write-host -ForegroundColor red "*** Path must be a directory, please try again. ***"
+        Write-host ""
+        $indexdir = $null
+        }
+    }
+#Query user on index directory and set it as $indexdir variable
+#Error if path is not valid or is not a folder
+
 $Orphan = (Select-String -Path $logdir\FileReader*.log -Pattern '\b(\w*\w*)\b\.([1-9][0-9]{0,2})\.([1-9][0-9]{0,2})\.rdx$|\b(\w*\w*)\b\.([1-9][0-9]{0,2})\.([1-9][0-9]{0,2})\.rdx\.([1-9][0-9]{0,2})').Matches.Value
 $Orphans = $Orphan.Count
 #Run regex against FileReader*.log in $logdir and print matches to screen
@@ -36,7 +57,10 @@ $Choices  = '&Yes', '&No'
 $decision = $Host.UI.PromptForChoice($Title, $Question, $Choices, 1)
 if ($decision -eq 0) {
     Write-Host "Let's get those Orphans cleaned up..."
-    #HERE IS WHERE WE REMOVE THE ORPHANS FOUND ONCE WE FIGURE THAT PART OUT
+    Set-Location -Path $indexdir
+    #Set our location to the index directory
+    $Orphan | ForEach-Object {Remove-Item $_ -WhatIf}
+    #For each match found, remove the object from our current location
 } else {
     Write-Host "Leaving those Orphans alone..."
     Exit 0
