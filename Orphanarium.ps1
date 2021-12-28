@@ -1,4 +1,4 @@
-#Orphanarium v0.0.2 by Shawn Cook (1/13/2020)
+#Orphanarium v0.0.3 by Shawn Cook (12/28/2021)
 #Read Symantec DLP Filereader logs to locate Orphaned Files and remove them from the system.
 
 $logdir = $null
@@ -6,6 +6,16 @@ $indexdir = $null
 $orphan = $null
 $orphans = $null
 #set variables to null as we ask the user for this information/populate ourselves
+
+$DataStamp = Get-Date -Format "yyyy-MM-ddTHH:mm:ss"
+
+### LogWrite Function ###
+Function LogWrite
+{
+   Param ([string]$logstring)
+   Write-Host "$DataStamp $logstring"
+   Add-content $Logfile -value "$DataStamp $logstring"
+}
 
 while ($null -eq $logdir){
 $logdir = read-host "Please enter the Symantec DLP DEBUG log folder path"
@@ -59,7 +69,9 @@ if ($decision -eq 0) {
     Write-Host -ForegroundColor Green ">Let's get those Orphans cleaned up..."
     Set-Location -Path $indexdir
     #Set our location to the index directory
-    $orphan | ForEach-Object {Remove-Item $_ -WhatIf}
+    $orphan | ForEach-Object {
+        Remove-Item $_ -WhatIf
+        LogWrite "Deleting Orphan $_"}
     #For each match found, remove the object from our current location
     #Remove -WhatIf for Production
 } else {
